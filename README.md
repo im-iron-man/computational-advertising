@@ -1,1 +1,4 @@
-# computational-advertising
+# 计算广告
+
+- 计算广告
+- 计算广告学
