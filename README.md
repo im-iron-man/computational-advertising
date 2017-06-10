@@ -1,11 +1,11 @@
 # 计算广告
 
 - 计算广告
-  - [视频](https://study.163.com/course/courseMain.htm?courseId=321007)
   - [资料](https://book.douban.com/subject/26596778/)
-- 多臂老虎机
+  - [视频](https://study.163.com/course/courseMain.htm?courseId=321007)
+- [推荐系统实践](https://book.douban.com/subject/10769749/)
+- [推荐系统](https://book.douban.com/subject/24746415/)
+- Bandit Algorithms for Website Optimization
   - [资料](https://book.douban.com/subject/20112875/)
   - [代码](https://github.com/johnmyleswhite/BanditsBook)
-- [推荐系统](https://book.douban.com/subject/24746415/)
-- [推荐系统实践](https://book.douban.com/subject/10769749/)
 - 进阶
