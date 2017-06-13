@@ -8,4 +8,6 @@
 - Bandit Algorithms for Website Optimization
   - [资料](https://book.douban.com/subject/20112875/)
   - [代码](https://github.com/johnmyleswhite/BanditsBook)
+- Algorithms for multi-armed bandits problem
+- [Multi-Armed Bandits](https://dataorigami.net/blogs/napkin-folding/79031811-multi-armed-bandits)
 - 进阶
