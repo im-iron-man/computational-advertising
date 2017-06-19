@@ -3,20 +3,16 @@ import math
 
 class UCB1(object):
 
-    def __init__(self, counts, values):
-        self.counts = counts
-        self.values = values
-
-    def initialize(self, n_arms):
+    def __init__(self, n_arms):
         self.counts = [0 for _ in range(n_arms)]
         self.values = [0.0 for _ in range(n_arms)]
 
-    def select_arm(self):
+    def pull(self):
         n_arms = len(self.counts)
         for arm in range(n_arms):
             if self.counts[arm] == 0:
                 return arm
-        ucb_values = [0.0 for arm in range(n_arms)]
+        ucb_values = [0.0 for _ in range(n_arms)]
         total_counts = sum(self.counts)
         for arm in range(n_arms):
             bonus = math.sqrt((2 * math.log(total_counts)) / self.counts[arm])
