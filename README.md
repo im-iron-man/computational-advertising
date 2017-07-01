@@ -14,7 +14,7 @@
   - [资料](https://book.douban.com/subject/26596778/)
   - [视频](https://study.163.com/course/courseMain.htm?courseId=321007)
 
-## 点击率预估
+### 点击率预估
 
 - [点击率预测综述(上篇)](https://www.qcloud.com/community/article/643549)
 - [点击率预测综述(下篇)](https://www.qcloud.com/community/article/622182)
