@@ -14,11 +14,26 @@
 
 ## 深度学习
 
-### tensorflow
+## tensorflow
 
+### 框架
+
+- [tensorflow](https://github.com/tensorflow/tensorflow)
 - [miniflow](https://github.com/tobegit3hub/miniflow)
+
+### 资料
+
+- [TensorFlow实战](https://book.douban.com/subject/26974266/)
+- [Tensorflow：实战Google深度学习框架](https://book.douban.com/subject/26976457/)
+- [超智能体](https://www.gitbook.com/book/yjango/superorganism/details)
+
+### 代码
+
 - [models](https://github.com/tensorflow/models)
 - [TensorFlow-World](https://github.com/astorfi/TensorFlow-World)
+- [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
+- [TensorFlow-Tutorials](https://github.com/nlintz/TensorFlow-Tutorials)
+- [Tensorflow-101](https://github.com/sjchoi86/Tensorflow-101)
 
 ## 强化学习
 
