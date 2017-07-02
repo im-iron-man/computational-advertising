@@ -1,5 +1,9 @@
 # 计算广告
 
+## 机器学习
+
+- [xgboost](https://github.com/dmlc/xgboost)
+
 ## 多臂老虎机
 
 - Bandit Algorithms for Website Optimization
@@ -7,6 +11,16 @@
   - [代码](https://github.com/johnmyleswhite/BanditsBook)
 - Algorithms for multi-armed bandits problem
 - [Multi-Armed Bandits](https://dataorigami.net/blogs/napkin-folding/79031811-multi-armed-bandits)
+
+## 深度学习
+
+### tensorflow
+
+- [miniflow](https://github.com/tobegit3hub/miniflow)
+- [models](https://github.com/tensorflow/models)
+- [TensorFlow-World](https://github.com/astorfi/TensorFlow-World)
+
+## 强化学习
 
 ## 计算广告
 
