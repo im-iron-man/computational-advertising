@@ -14,6 +14,11 @@
 
 ## 深度学习
 
+- [Deep Learning](http://www.deeplearningbook.org/)
+- [神经网络与深度学习](https://nndl.github.io/)
+- [UFLDL Tutorial](http://ufldl.stanford.edu/tutorial/)
+- [UFLDL Tutorial](http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial)
+
 ## tensorflow
 
 ### 框架
