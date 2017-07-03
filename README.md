@@ -4,8 +4,7 @@
 
 - [KAGGLE ENSEMBLING GUIDE](https://mlwave.com/kaggle-ensembling-guide/)
 - [Ensemble Selection from Libraries of Models](http://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml04.icdm06long.pdf)
-- [使用sklearn进行集成学习——理论](http://www.cnblogs.com/jasonfreak/p/5657196.html)
-- [使用sklearn进行集成学习——实践](http://www.cnblogs.com/jasonfreak/p/5720137.html)
+- [Ensemble Learning](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/springerEBR09.pdf)
 - [【scikit-learn文档解析】集成方法Ensemble Methods（上）：Bagging与随机森林](https://zhuanlan.zhihu.com/p/26683576)
 - [【scikit-learn文档解析】集成方法Ensemble Methods（下）：AdaBoost，GBDT与投票分类器](https://zhuanlan.zhihu.com/p/26704531)
 - [xgboost](https://github.com/dmlc/xgboost)
