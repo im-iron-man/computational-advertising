@@ -2,7 +2,7 @@
 
 ## 机器学习
 
-- []()
+- Ensemble Methods Foundations and Algorithms
 - [【scikit-learn文档解析】集成方法Ensemble Methods（上）：Bagging与随机森林](https://zhuanlan.zhihu.com/p/26683576)
 - [【scikit-learn文档解析】集成方法Ensemble Methods（下）：AdaBoost，GBDT与投票分类器](https://zhuanlan.zhihu.com/p/26704531)
 - [xgboost](https://github.com/dmlc/xgboost)
