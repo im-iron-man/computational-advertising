@@ -8,14 +8,6 @@
 - [xgboost](https://github.com/dmlc/xgboost)
 - [LightGBM](https://github.com/Microsoft/LightGBM)
 
-## 多臂老虎机
-
-- Bandit Algorithms for Website Optimization
-  - [资料](https://book.douban.com/subject/20112875/)
-  - [代码](https://github.com/johnmyleswhite/BanditsBook)
-- Algorithms for multi-armed bandits problem
-- [Multi-Armed Bandits](https://dataorigami.net/blogs/napkin-folding/79031811-multi-armed-bandits)
-
 ## 深度学习
 
 - [Deep Learning](http://www.deeplearningbook.org/)
@@ -45,6 +37,16 @@
 - [Tensorflow-101](https://github.com/sjchoi86/Tensorflow-101)
 
 ## 强化学习
+
+## 多臂老虎机
+
+- Bandit Algorithms for Website Optimization
+  - [资料](https://book.douban.com/subject/20112875/)
+  - [代码](https://github.com/johnmyleswhite/BanditsBook)
+- Algorithms for multi-armed bandits problem
+- [Multi-Armed Bandits](https://dataorigami.net/blogs/napkin-folding/79031811-multi-armed-bandits)
+
+## 蒙特卡洛树搜索
 
 ## 计算广告
 
