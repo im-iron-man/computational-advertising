@@ -46,8 +46,6 @@
 - Algorithms for multi-armed bandits problem
 - [Multi-Armed Bandits](https://dataorigami.net/blogs/napkin-folding/79031811-multi-armed-bandits)
 
-## 蒙特卡洛树搜索
-
 ## 计算广告
 
 - 计算广告
