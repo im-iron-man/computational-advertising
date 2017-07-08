@@ -38,6 +38,13 @@
 
 ## 强化学习
 
+- UCL Course on RL
+  - [资料](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
+  - [视频](https://www.bilibili.com/video/av8912293/)
+- [reinforcement-learning-an-introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
+- [增强学习101 闪电入门reinforcement-learning](http://nooverfit.com/wp/15-%E5%A2%9E%E5%BC%BA%E5%AD%A6%E4%B9%A0101-%E9%97%AA%E7%94%B5%E5%85%A5%E9%97%A8-reinforcement-learning/)
+- [强化学习知识大讲堂](https://zhuanlan.zhihu.com/sharerl)
+
 ## 多臂老虎机
 
 - Bandit Algorithms for Website Optimization
