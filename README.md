@@ -69,3 +69,5 @@
 - [推荐系统](https://book.douban.com/subject/24746415/)
 
 ## 量化
+
+- [打开量化投资的黑箱](https://book.douban.com/subject/10528799/)
