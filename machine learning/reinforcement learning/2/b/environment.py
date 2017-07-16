@@ -8,14 +8,13 @@ UNIT = 40
 MAZE_H = 4
 MAZE_W = 4
 
-class Maze(tk.Tk):
+class Game(tk.Tk):
 
     def __init__(self):
         tk.Tk.__init__(self)
-        self.action_space = ['u', 'd', 'l', 'r']
-        self.n_actions = len(self.action_space)
         self.title('maze')
         self.geometry('{0}x{1}'.format(MAZE_H * UNIT, MAZE_W * UNIT))
+        self.flag = False
         self._build_maze()
 
     def _build_maze(self):
@@ -61,11 +60,10 @@ class Maze(tk.Tk):
             fill='yellow'
         )
 
+        self.s = str(self.canvas.coords(self.rect))
         self.canvas.pack()
 
-    def reset(self):
-        self.update()
-        time.sleep(0.5)
+    def restart(self):
         self.canvas.delete(self.rect)
         origin = np.array([20, 20])
         self.rect = self.canvas.create_rectangle(
@@ -73,22 +71,24 @@ class Maze(tk.Tk):
             origin[0] + 15, origin[1] + 15,
             fill='red'
         )
-        return self.canvas.coords(self.rect)
+        self.flag = False
+        self.s = str(self.canvas.coords(self.rect))
+        return self.s
 
-    def step(self, action):
+    def transition(self, action):
         s = self.canvas.coords(self.rect)
 
         base_action = np.array([0, 0])
-        if action == 0:
+        if action == 'u':
             if s[1] > UNIT:
                 base_action[1] -= UNIT
-        elif action == 1:
+        elif action == 'd':
             if s[1] < (MAZE_H - 1) * UNIT:
                 base_action[1] += UNIT
-        elif action == 2:
+        elif action == 'r':
             if s[0] < (MAZE_W - 1) * UNIT:
                 base_action[0] += UNIT
-        elif action == 3:
+        elif action == 'l':
             if s[0] > UNIT:
                 base_action[0] -= UNIT
         self.canvas.move(self.rect, base_action[0], base_action[1])
@@ -96,16 +96,36 @@ class Maze(tk.Tk):
 
         if s_ == self.canvas.coords(self.oval):
             reward = 1
-            done = True
+            self.flag = True
         elif s_ in [self.canvas.coords(self.hell1), self.canvas.coords(self.hell2)]:
             reward = -1
-            done = True
+            self.flag = True
         else:
             reward = 0
-            done = False
 
-        return s_, reward, done
+        self.s = str(s_)
+        return self.s, reward
 
-    def render(self):
+    def over(self):
+        return self.flag
+
+    def view(self):
         time.sleep(0.1)
         self.update()
+
+if __name__ == '__main__':
+    game = Game()
+    while not game.over():
+        game.view()
+        action = raw_input('>>> ')
+        s_, reward = game.transition(action)
+        print s_, reward
+    game.view()
+    game.restart()
+    while not game.over():
+        game.view()
+        action = raw_input('>>> ')
+        s_, reward = game.transition(action)
+        print s_, reward
+    game.view()
+    game.destroy()
