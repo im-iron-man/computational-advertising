@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import numpy as np
+import matplotlib.pyplot as plt
 import tensorflow as tf
 
 def add_layer(inputs, in_size, out_size, activation_function=None):
