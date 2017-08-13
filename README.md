@@ -46,6 +46,7 @@
   - [资料](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
   - [视频](https://www.bilibili.com/video/av8912293/)
 - [reinforcement-learning-an-introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
+- [Algorithms for Reinforcement Learning](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
 
 ### 多臂老虎机
 
