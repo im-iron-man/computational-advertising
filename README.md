@@ -35,6 +35,7 @@
 #### 代码
 
 - [models](https://github.com/tensorflow/models)
+- [EffectiveTensorflow](https://github.com/vahidk/EffectiveTensorflow)
 - [TensorFlow-World](https://github.com/astorfi/TensorFlow-World)
 - [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
 - [TensorFlow-Tutorials](https://github.com/nlintz/TensorFlow-Tutorials)
