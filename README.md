@@ -12,33 +12,6 @@
 - [xgboost](https://github.com/dmlc/xgboost)
 - [LightGBM](https://github.com/Microsoft/LightGBM)
 
-## 深度学习
-
-- [Deep Learning](http://www.deeplearningbook.org/)
-- [神经网络与深度学习](https://nndl.github.io/)
-- [UFLDL Tutorial](http://ufldl.stanford.edu/tutorial/)
-- [UFLDL Tutorial](http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial)
-
-### tensorflow
-
-#### 框架
-
-- [tensorflow](https://github.com/tensorflow/tensorflow)
-- [miniflow](https://github.com/tobegit3hub/miniflow)
-
-#### 资料
-
-- [TensorFlow实战](https://book.douban.com/subject/26974266/)
-- [Tensorflow：实战Google深度学习框架](https://book.douban.com/subject/26976457/)
-
-#### 代码
-
-- [EffectiveTensorflow](https://github.com/vahidk/EffectiveTensorflow)
-- [TensorFlow-World](https://github.com/astorfi/TensorFlow-World)
-- [TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
-- [TensorFlow-Tutorials](https://github.com/nlintz/TensorFlow-Tutorials)
-- [Tensorflow-101](https://github.com/sjchoi86/Tensorflow-101)
-
 ## 强化学习
 
 - UCL Course on RL
