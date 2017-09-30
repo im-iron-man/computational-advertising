@@ -20,6 +20,10 @@
 - [reinforcement-learning-an-introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
 - [Algorithms for Reinforcement Learning](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
 
+### 蒙特卡洛树搜索
+
+- [Introduction to Monte Carlo Tree Search](http://jeffbradberry.com/posts/2015/09/intro-to-monte-carlo-tree-search/)
+
 ### 多臂老虎机
 
 - Bandit Algorithms for Website Optimization
