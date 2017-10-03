@@ -30,6 +30,8 @@
 - [Monte-Carlo Tree Search](https://project.dke.maastrichtuniversity.nl/games/files/phd/Chaslot_thesis.pdf)
 - [英文](https://github.com/im-iron-man/computational-advertising/blob/master/MCTS/Mastering%20the%20Game%20of%20Go%20with%20Deep%20Neural%20Networks%20and%20Tree%20Search.pdf)
 - [中文](http://blog.csdn.net/u013390476/article/details/50925347)
+- [DeepMind研发的围棋AI AlphaGo是如何下棋的？](https://www.zhihu.com/question/41176911/answer/90118097)
+- [深度解读AlphaGo算法原理](http://blog.csdn.net/songrotek/article/details/51065143)
 
 ### 多臂老虎机
 
