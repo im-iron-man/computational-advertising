@@ -22,7 +22,7 @@
 
 ### 蒙特卡洛树搜索
 
-- [28天自制你的AlphaGo(6):蒙特卡洛树搜索（MCTS）基础](https://zhuanlan.zhihu.com/p/25345778)
+- [28天自制你的AlphaGo(6): 蒙特卡洛树搜索（MCTS）基础](https://zhuanlan.zhihu.com/p/25345778)
 - [Introduction to Monte Carlo Tree Search](http://jeffbradberry.com/posts/2015/09/intro-to-monte-carlo-tree-search/)
 - [Python Code](http://mcts.ai/code/python.html)
 - [Reversi](https://github.com/ZongzongLin/Reversi/blob/master/reversi.py)
