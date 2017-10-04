@@ -35,4 +35,3 @@ for _ in range(1000):
     sess.run(train_step, feed_dict={xs: batch_xs, ys: batch_ys})
     if i % 50 == 0:
         print(compute_arruracy(mnist.test.images, mnist.test.lables))
-
