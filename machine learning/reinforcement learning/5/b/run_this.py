@@ -1,10 +1,10 @@
 from maze_env import Maze
 from RL_brain import DeepQNetwork
 
-
 def run_maze():
     for episode in range(1000):
         observation = env.reset()
+        print('episode: %s' % episode)
         while True:
             env.render()
             action = RL.choose_action(observation)
@@ -15,7 +15,6 @@ def run_maze():
                 break
     print('game over')
     env.destroy()
-
 
 if __name__ == "__main__":
     env = Maze()
