@@ -3,6 +3,7 @@
 ## 机器学习
 
 - [机器学习](https://morvanzhou.github.io/tutorials/machine-learning/)
+- [无痛的机器学习](https://zhuanlan.zhihu.com/hsmyy)
 
 ### 集成方法
 
