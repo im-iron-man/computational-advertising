@@ -124,3 +124,17 @@ class Maze(tk.Tk, object):
     def render(self):
         # time.sleep(0.01)
         self.update()
+
+if __name__ == '__main__':
+    maze = Maze()
+    done = True
+    while True:
+        if done:
+            observation = maze.reset()
+            print(observation)
+            done = False
+        else:
+            a = input('< ')
+            observation, reward, done = maze.step(int(a))
+            print(observation, reward, done)
+        maze.render()
