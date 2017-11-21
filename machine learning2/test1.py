@@ -1,3 +1,5 @@
+import numpy as np
+
 class TableAgent:
 
     def __init__(self, state_transition_table, reward_table):
