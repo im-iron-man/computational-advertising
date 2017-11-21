@@ -28,6 +28,26 @@ class Snake:
             self.pos = self.ladders[self.pos]
         return -1, self.pos
         
+    def state_transition_table(self):
+        table = np.zeros((len(self.dice_ranges), 101, 101))
+        ladder_move = np.vectorize(lambda x: self.ladders[x] if x in self.ladders else x)
+        for i, dice in enumerate(self.dice_ranges):
+            prob = 1.0 / dice
+            for s in range(1, 100):
+                step = np.arange(dice)
+                step += s
+                step = np.piecewise(step, [step > 100, step <= 100], [lambda x: 200 - x, lambda x: x])
+                step = ladder_move(step)
+                for final_move in step:
+                    table[i, s, final_move] += prob
+        table[:, 100, 100] = 1
+        return table
+        
+    def reward_table(self):
+        table = np.array([-1] * 101)
+        table[100] = 100
+        return table
+        
 if __name__ == '__main__':
     env = Snake(10, [3, 6])
     env.start()
