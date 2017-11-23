@@ -69,3 +69,4 @@ if __name__ == '__main__':
     policy_iteration_demo()
     policy_iteration_demo2()
     policy_iteration_demo3()
+    policy_iteration_demo4()

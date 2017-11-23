@@ -42,11 +42,11 @@ class TableAgent:
             self.policy = new_policy
             return True
                     
-    def policy_iteration(self):
+    def policy_iteration(self, iteration_num=None):
         iteration = 0
         while True:
             iteration += 1
-            self.policy_evaluation()
+            self.policy_evaluation(iteration_num)
             ret = self.policy_improvement()
             if not ret:
                 break
