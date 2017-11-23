@@ -31,16 +31,41 @@ def policy_iteration_demo():
 def policy_iteration_demo2():
     env = Snake(10, [3,6])
     agent = TableAgent(env.state_transition_table(), env.reward_table())
-    print 'return3={}'.format(eval(env,agent))
+    print 'return3={}'.format(eval(env, agent))
     agent.policy[:] = 1
-    print 'return6={}'.format(eval(env,agent))
+    print 'return6={}'.format(eval(env, agent))
     agent.policy[97:100] = 0
-    print 'return_ensemble={}'.format(eval(env,agent))
+    print 'return_ensemble={}'.format(eval(env, agent))
     agent.policy_iteration()
-    print 'return_pi={}'.format(eval(env,agent))
+    print 'return_pi={}'.format(eval(env, agent))
+    print agent.policy
+    
+def policy_iteration_demo3():
+    env = Snake(10, [3,6])
+    agent = TableAgent(env.state_transition_table(), env.reward_table())
+    print 'return3={}'.format(eval(env, agent))
+    agent.policy[:] = 1
+    print 'return6={}'.format(eval(env, agent))
+    agent.policy[97:100] = 0
+    print 'return_ensemble={}'.format(eval(env, agent))
+    agent.value_iteration()
+    print 'return_pi={}'.format(eval(env, agent))
+    print agent.policy
+    
+def policy_iteration_demo4():
+    env = Snake(10, [3,6])
+    agent = TableAgent(env.state_transition_table(), env.reward_table())
+    print 'return3={}'.format(eval(env, agent))
+    agent.policy[:] = 1
+    print 'return6={}'.format(eval(env, agent))
+    agent.policy[97:100] = 0
+    print 'return_ensemble={}'.format(eval(env, agent))
+    agent.generalized_policy_iteration()
+    print 'return_pi={}'.format(eval(env, agent))
     print agent.policy
 
 if __name__ == '__main__':
     simple_eval()
     policy_iteration_demo()
     policy_iteration_demo2()
+    policy_iteration_demo3()
