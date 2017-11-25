@@ -30,5 +30,3 @@ class MonteCarloAgent:
             return_val = return_val * self.gamma + item[2]
             self.value_n[item[0]][item[1]] += 1
             self.value_q[item[0]][item[1]] += (return_val - self.value_q[item[0]][item[1]]) / self.value_n[item[0]][item[1]]
-            
-            
