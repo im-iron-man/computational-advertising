@@ -9,7 +9,7 @@ gym: 0.8.0
 
 import gym
 from RL_brain import PolicyGradient
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 DISPLAY_REWARD_THRESHOLD = 400  # renders environment if total episode reward is greater then this threshold
 RENDER = False  # rendering wastes time
